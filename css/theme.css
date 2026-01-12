@@ -13,6 +13,12 @@
   --color-orange: #E75110;
 }
 
+div.tadeu[style*="new_home_banner_tadeu_14052025.png"] {
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+
 html,
 body {
   padding: 0;
@@ -87,7 +93,7 @@ footer {
 
 @media screen and (min-width: 1400px) {
   html,
-body {
+  body {
     max-width: 1500px;
     margin: 0 auto;
   }
@@ -95,7 +101,7 @@ body {
 .adt-animate {
   width: 100px;
   height: 100px;
-  background: #7e7b7b;
+  background: rgb(126, 123, 123);
   animation: changer 4s;
   animation-iteration-count: 7;
 }
@@ -118,7 +124,7 @@ body {
 .adt-animate--left_to_right {
   width: 100px;
   height: 100px;
-  background: #2f0a96;
+  background: rgb(47, 10, 150);
   animation: 3s linear 1s infinite running toRight;
 }
 @-webkit-keyframes toRight {
@@ -140,7 +146,7 @@ body {
 .adt-animate--right_to_left {
   width: 100px;
   height: 100px;
-  background: #942f2f;
+  background: rgb(148, 47, 47);
   animation: 3s linear 1s infinite running toLeft;
 }
 @-webkit-keyframes toLeft {
@@ -162,7 +168,7 @@ body {
 .adt-animate--top_to_bottom {
   width: 100px;
   height: 100px;
-  background: #7e7b7b;
+  background: rgb(126, 123, 123);
   animation: 5s ease-in both infinite toBottom;
   position: relative;
 }
@@ -197,7 +203,7 @@ body {
 .adt-animate--bottom_to_top {
   width: 100px;
   height: 100px;
-  background: #942f2f;
+  background: rgb(148, 47, 47);
   animation: 3s linear infinite toTop;
   position: relative;
 }
@@ -224,7 +230,7 @@ body {
 .adt-animate--scale {
   width: 100px;
   height: 100px;
-  background: #f5bc41;
+  background: rgb(245, 188, 65);
   animation: scaler 4s;
   animation-iteration-count: infinite;
 }
@@ -247,7 +253,7 @@ body {
 .adt-animate--grayscale {
   width: 100px;
   height: 100px;
-  background: #f5bc41;
+  background: rgb(245, 188, 65);
   animation: 5s infinite grayscaler;
 }
 @-webkit-keyframes grayscaler {
@@ -742,11 +748,9 @@ body {
   .adt-mobile-show {
     display: block;
   }
-
   .adt-mobile-hide {
     display: none;
   }
-
   .adt-col--sm-none {
     -ms-flex: 0;
     flex: 0;
@@ -812,7 +816,6 @@ body {
     flex: 0 0 100%;
     max-width: 100%;
   }
-
   .adt-spacing-sm--top_bottom {
     padding: 4% 0;
   }
@@ -996,6 +999,7 @@ h6,
 .adt-title {
   font-weight: normal;
   line-height: 1;
+  margin: 0 0 0.5rem;
 }
 
 h1,

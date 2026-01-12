@@ -13,6 +13,12 @@
   --color-orange: #E75110;
 }
 
+div.tadeu[style*="new_home_banner_tadeu_14052025.png"] {
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+
 html,
 body {
   padding: 0;
@@ -87,7 +93,7 @@ footer {
 
 @media screen and (min-width: 1400px) {
   html,
-body {
+  body {
     max-width: 1500px;
     margin: 0 auto;
   }
