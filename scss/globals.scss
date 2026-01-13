@@ -14,9 +14,17 @@
 }
 
 div.tadeu[style*="new_home_banner_tadeu_14052025.png"] {
-  background-size: cover;
-  background-position: center;
-  background-repeat: no-repeat;
+  display:none !important;
+}
+
+
+
+section#banner[style*="new_home_banner_fundo_14052025.png"] {
+    background-image: url("https://cms.ademicon.com.br/api/media/file/hero-home.png") !important;
+}
+
+section#banner[style*="new_home_banner_fundo_14052025.png"] aside.adt-col-6.adt-col--sm-12.adt-flex b{
+   color: transparent;
 }
 
 html,
