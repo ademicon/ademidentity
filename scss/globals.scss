@@ -27,6 +27,13 @@ section#banner[style*="new_home_banner_fundo_14052025.png"] aside.adt-col-6.adt-
    color: transparent;
 }
 
+@media (max-width: 768px) {
+  section#banner[style*="new_home_banner_fundo_14052025.png"] {
+      background-image: url("https://cms.ademicon.com.br/api/media/file/hero-home-mobile.png") !important;
+  margin-top: 55px !important
+  }
+}
+
 html,
 body
 {
